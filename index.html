@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>LNMIIT</title>
+<link href="style3.css" rel="stylesheet" type="text/css" /><!--[if IE 5]-->
+</head>
+<body>
+<!-- begin #container -->
+<div id="container">
+	<!-- begin #header -->
+    <div id="header">
+	<input type="image" src="images/LNMIIT-logo.jpg" alt="" width="150" height="82" align="left" align="top" margin-left=5px" />
+	<h1>LNMIIT CODING CONTEST</h1>
+		<div class="headerTop"> 
+</div>
+      <div class="mainMenu">
+	  <a href="index.html">Home</a> &nbsp &nbsp &nbsp 
+	  <a href="query1.php">Previous Questions</a>&nbsp &nbsp &nbsp 
+	  <a href="contact_us.php">Contact us</a>&nbsp &nbsp &nbsp 
+	  <a href="tutorialmain.php">Tutorials</a>&nbsp 
+	   </div>
+	  
+        <div class="headerPic">
+		<a>Time</a>
+	   <body onLoad="show_clock()" >
+	   <script language="javascript" src="liveclock.js">
+</script>
+        </div>
+		
+    </div>
+    <!-- end #header -->
+	<!--<div class="mainMenu">
+	<onLoad="show_clock()">
+	</div>-->
+       <div id="sidebar1">
+            <div class="loginTitle">
+              <div class="lT">Login Here </div>
+            </div>
+            <div class="loginBody">
+           	  <br />
+			  <form name= "myindex" method="post" action="index.php" onsubmit="return validateForm1()">
+            	Team Name:<br />
+                <input name="uid" type="text" size="20" /><br /><br />
+                Password:<br />
+                <input type="password" name="pcode" size="20" maxlength="20" /><br /><br />
+                <div class="fr">
+                  <p><a href="register.html">Register here!</a></p>
+                </div>
+                 <div class="ls"><input type="image" src="images/Login.jpg" alt="submit button" width="66" height="26"  /></div>
+				 </form>
+            </div>
+            <div class="loginFooter"></div>
+      </div>
+        <!-- end #sidebar1 -->
+		
+        <!-- begin #mainContent -->
+		
+      <div id="mainContent">
+	  <h2> Rules</h2>
+	  <li> Contest will start from 9 pm </li>
+	  <li> Each problem has points associated with it. Scoring is done by adding up the points scored with each of the accepted questions</li>
+	  <li> Incase of a tie, the ranking is done according to the time of submission. Which means that, the team submitting earlier is rated higher</li>
+	  <li> The timings of the contests may increase as decided by the organizers</li>
+	  <li> The time limit for execution is 2 sec.</li>
+	  <li> Results will be announced immediately after the contest.</li>
+	  <li> Registration will end at 11:30pm ---- 2012</li>
+	  <li> All languages are allowed</li>
+	  </div>
+        <!-- end #mainContent -->
+    <br class="clearfloat" />
+    <!-- begin #footer -->
+    <div id="footer">
+   	  <p>
+        	Copyright &copy; 2012. Designed by <br />
+            <a class="footerLink"><abbr title="eXtensible HyperText Markup Language">Tanya</abbr></a>|
+      <a class="footerLink"><abbrev>Rashi</abbrev></a> | <a class="footerLink"><abbrev>Vinit</abbrev></a></p>
+        <div style="text-align:center;"></div> 
+    </div>
+    <!-- end #footer -->
+</div>
+<!-- end #container -->
+<script type="text/javascript">
+function validateForm1()
+{
+var x=document.forms["myindex"]["tid"].value;
+var y=document.forms["myindex"]["password"].value;
+if (x==null || x=="" || y==null || y=="")
+ {
+  alert("All fields are compulsary");
+  return false;
+  }
+}
+</script>
+<!--clock -->
+<script language="javascript" src="liveclock.js">
+</script>
+</body>
+</html>
