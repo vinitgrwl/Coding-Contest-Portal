@@ -1,0 +1,249 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>LNMIIT</title>
+<link href="style3.css" rel="stylesheet" type="text/css" /><!--[if IE 5]-->
+</head>
+<body>
+<!-- begin #container -->
+<div id="container">
+	<!-- begin #header -->
+    <div id="header">
+	<input type="image" src="images/LNMIIT-logo.jpg" alt="" width="150" height="82" align="left" align="top" margin-left=5px" />
+	<h1>LNMIIT CODING CONTEST</h1>
+		<div class="headerTop"> 
+</div>
+      <div class="mainMenu">
+	  <a href="index.html">Home</a>&nbsp &nbsp &nbsp 
+	  <a href="query1.php">Previous Questions</a>&nbsp &nbsp &nbsp 
+	  <a href="tutorialmain.php">Tutorials</a> &nbsp &nbsp &nbsp
+	  <a href="contact_us.php">Contact us</a>&nbsp &nbsp
+
+	   </div>
+	  
+        <div class="headerPic">
+		<a>Time</a>
+	   <body onLoad="show_clock()" >
+	   <script language="javascript" src="liveclock.js">
+</script>
+        </div>
+		
+    </div>
+    <!-- end #header -->
+	<!--<div class="mainMenu">
+	<onLoad="show_clock()">
+	</div>-->
+	  <!-- begin #mainContent -->
+		
+      <div id="mainContent">
+	  <h2>Register</h2>
+	  
+	  <form action="login.php" name="myregister" onSubmit="return validateForm();" method="post" > 
+<br/>
+<label>Team Name* :</label>
+<input  name="uid" size="35" maxlength="20" class="tb5" />
+<br/>
+<label>Password*:</label>
+<input type="password" name="pcode" size="35" maxlength="20" class="tb5"/>
+<br/>
+<label>Retype Password* :</label>
+<input type="password" name="repcode" size="35" maxlength="20" class="tb5"/>
+<br />
+<label>Team Size:</label>
+<select name="team_size" class="tb5">
+<option value="1" class="box">1</option>
+<option value="2" class="box">2</option>
+<option value="3" class="box">3</option>
+</select>
+<br/>
+-------------------------------------------------------------------------------------<br/>
+Member 1:<br/>
+<label>Name*:</label>
+<input type="text" name="name1"  size="35" maxlength="20" class="tb5"/>
+<br/>
+<label>Roll No.*:</label>
+<input type="text" name="rollno1"  size="35" maxlength="20" class="tb5"/>
+<br/>
+<label>Institute*:</label>
+<input type="text" name="institute1"  size="35" maxlength="50" class="tb5"/>
+<br/>
+<label>Email id*:</label>
+<input type="text" name="emailid1"  size="35" maxlength="60" class="tb5"/>
+<br/>
+-------------------------------------------------------------------------------------<br/>
+Member 2:<br/>
+<label>Name: </label>
+<input type="text" name="name2"  size="35" maxlength="20" class="tb5"/>
+<br/>
+<label>Roll No.: </label>
+<input type="text" name="rollno2"  size="35" maxlength="20" class="tb5"/>
+<br/>
+<label>Institute:</label>
+<input type="text" name="institute2"  size="35" maxlength="50" class="tb5"/>
+<br/>
+<label>Email id: </label>
+<input type="text" name="emailid2"  size="35" maxlength="60" class="tb5"/>
+<br/>
+-------------------------------------------------------------------------------------<br/>
+Member 3:<br/>
+<label>Name: </label>
+<input  name="name3"  size="35" maxlength="20" class="tb5"/>
+<br/>
+<label>Roll No.:</label>
+<input type="text" name="rollno3"  size="35" maxlength="20" class="tb5"/>
+<br/>
+<label>Institute:</label>
+<input type="text" name="institute3"  size="35" maxlength="50" class="tb5"/>
+<br/>
+<label>Email id: </label>
+<input type="text" name="emailid3"  size="35" maxlength="60" class="tb5"/>
+<br/>
+<div class="ls"><input type="image" src="images/Register.jpg" alt="submit button" value="Register" width="86" height="26"  /></div>
+</form>
+* fields are compulsory.
+	  </div>
+	   <br class="clearfloat" />
+    <!-- begin #footer -->s
+    <div id="footer">
+   	  <p>
+        	Copyright &copy; 2012. Designed by <br />
+            <a class="footerLink"><abbr title="eXtensible HyperText Markup Language">Tanya</abbr></a>|
+      <a class="footerLink"><abbrev>Rashi</abbrev></a> | <a class="footerLink"><abbrev>Vinit</abbrev></a></p>
+        <div style="text-align:center;"></div> 
+    </div>
+    <!-- end #footer -->
+</div>
+<!-- end #container -->
+<script language="javascript">
+function dodisable()
+{
+document.form1.txt1.disabled="true";
+}
+</script>
+	  <script type="text/javascript">
+function validateForm()
+{
+var a=document.forms["myregister"]["uid"].value;
+var b=document.forms["myregister"]["pcode"].value;
+var c=document.forms["myregister"]["repcode"].value;
+var x=document.forms["myregister"]["team_size"].value;
+var e=document.forms["myregister"]["name1"].value;
+var f=document.forms["myregister"]["rollno1"].value;
+var g=document.forms["myregister"]["institute1"].value;
+var i=document.forms["myregister"]["emailid1"].value;
+var j=document.forms["myregister"]["name2"].value;
+var k=document.forms["myregister"]["rollno2"].value;
+var l=document.forms["myregister"]["institute2"].value;
+var m=document.forms["myregister"]["emailid2"].value;
+var n=document.forms["myregister"]["name3"].value;
+var o=document.forms["myregister"]["rollno3"].value;
+var p=document.forms["myregister"]["institute3"].value;
+var q=document.forms["myregister"]["emailid3"].value;
+var h=0;
+var r=0;
+var s=0;
+
+if (a==null || a=="" || b==null || b=="" || c==null || c=="" )
+  {
+  alert("All fields are compulsary");
+  return false;
+ if(b!=c)
+ {
+ alert("password do not match");
+ return false;
+ }
+  }
+  //for team of 1
+  	if(x==1)
+  	{
+  		if(e==null || e=="" || f==null || f=="" || g==null || g=="" || i==null || i=="" )
+  		{
+  			alert("All fields of 1 are compulsary");
+			h=1;
+  			return false;
+ 	 	}
+  		var atpos=i.indexOf("@");
+		var dotpos=i.lastIndexOf(".");
+		if ((atpos<1 || dotpos<atpos+2 || dotpos+2>=i.length)&& h!=1)
+  		{
+  			alert("Not a valid e-mail address");
+ 			 return false;
+ 		 }
+ 	 }
+  //for team of 2
+ 	 else if(x==2)
+ 	 {
+  		if(e==null || e=="" || f==null || f=="" || g==null || g=="" || i==null || i=="" )
+  		{
+ 		 alert("All fields are compulsary");
+ 		 h=1;
+ 		 return false;
+ 		 }
+ 		 var atpos1=i.indexOf("@");
+		var dotpos1=i.lastIndexOf(".");
+		if ((atpos1<1 || dotpos1<atpos1+2 || dotpos1+2>=i.length)&& h!=1)
+ 		 {
+  			alert("Not a valid e-mail address");
+			  return false;
+ 		 }
+ 		 if(j==null || j=="" || k==null || k=="" || l==null || l=="" || m==null || m=="" )
+ 		 {
+  			alert("All fields of 2 are compulsary");
+  			r=1;
+ 			 return false;
+ 		 }
+		  var atpos2=m.indexOf("@");
+		var dotpos2=m.lastIndexOf(".");
+		if ((atpos2<1 || dotpos2<atpos2+2 || dotpos2+2>=m.length)&& r!=1)
+ 		 {
+  			alert("Not a valid e-mail address");
+  			return false;
+ 		 }
+ 	 }
+// for team of 3 members
+	else if(x==3)
+	{
+  		if(e==null || e=="" || f==null || f=="" || g==null || g=="" || i==null || i=="" )
+  		{
+ 		 alert("All fields are compulsary");
+ 		 h=1;
+ 		 return false;
+ 		 }
+  		var atpos1=i.indexOf("@");
+		var dotpos1=i.lastIndexOf(".");
+		if ((atpos1<1 || dotpos1<atpos1+2 || dotpos1+2>=i.length)&& h!=1)
+ 		 {
+ 			 alert("Not a valid e-mail address");
+ 			 return false;
+ 		 }
+ 		 if(j==null || j=="" || k==null || k=="" || l==null || l=="" || m==null || m=="" )
+ 		 {
+ 			 alert("All fields are compulsary");
+ 			 r=1;
+ 			 return false;
+ 		 }
+ 			 var atpos2=m.indexOf("@");
+			var dotpos2=m.lastIndexOf(".");
+			if ((atpos2<1 || dotpos2<atpos2+2 || dotpos2+2>=m.length)&& r!=1)
+ 			 {
+  				alert("Not a valid e-mail address");
+  				return false;
+  			}
+ 		 if(n==null || n=="" || o==null || o=="" || p==null || p=="" || q==null || q=="" )
+ 		 {
+  			alert("All fields are compulsary");
+  			s=1;
+ 			 return false;
+		  }
+  		var atpos3=q.indexOf("@");
+		var dotpos3=q.lastIndexOf(".");
+		if ((atpos3<1 || dotpos3<atpos3+2 || dotpos3+2>=q.length)&& s!=1)
+ 		 {
+  			alert("Not a valid e-mail address");
+			  return false;
+ 		 }
+	  }
+	return true;
+	}
+</script>
