@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+margin:0%;
+padding:0%;
+background-color:#FFF;
+overflow:hidden;
+background-position:left;
+}
+
+#wrapper
+{
+margin-left:10%;
+margin-right:10%;
+border:solid 1px;
+overflow:hidden;
+height:auto;
+background-position:inherit;
+-moz-border-radius: 15px;
+margin-bottom: 50%;
+border-radius: 15px;
+border-color:#000000;
+}
+
+#header
+{
+background-color:#FFF;
+color:#CCC;
+font-family:"Trebuchet MS";
+font-size:30px;
+padding-left:2%;
+overflow:visible;
+height:auto;
+line-height:1%;
+
+}
+
+#tag
+{
+color:#666;
+font-size:18px;
+text-align:center;
+padding:1%;
+
+
+}
+#contents
+{
+background-color:#C03;
+color:#FFF;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:14px;
+height:auto;
+width:auto;
+padding:1%;
+}
+#login_box
+{
+cellpadding="5";
+background-color: #CCCCCC;
+font-family:"Times New Roman",Times,Serif;
+padding-left:5px;
+-moz-border-radius:15px;
+border radius:15px;
+overflow:hidden;
+padding-right:2%;
+margin-left:2%;
+margin-bottom:2%;
+margin-right:65%;
+-webkit-border-radius: 15px;
+border-color:#000000;
+border-style:solid;
+}
+#rules
+{
+font-family:"Times New Roman", Times, serif;
+-moz-border-radius:15px;
+-webkit-border-radius: 15px;
+overflow:hidden;
+margin-top:-24%;
+margin-left:36%;
+margin-bottom:33%;
+background-color:#CCCCCC;
+padding-right:2%;
+padding-left:2%;
+margin-right:1%;
+border-bottom-width:medium;
+border-color:#000000;
+border-style:solid;
+position:relative;
+}
+#contents p
+{
+font-size:17px;
+}
+#register_box
+{
+cellpadding="5";
+background-color: #CCCCCC;
+font-family:"Times New Roman",Times,Serif;
+padding-left:5px;
+-moz-border-radius:15px;
+border radius:15px;
+overflow:scroll;
+padding-right:2%;
+margin-left:30%;
+margin-bottom:2%;
+margin-right:30%;
+-webkit-border-radius: 15px;
+border-color:#000000;
+border-style:solid;
+}
